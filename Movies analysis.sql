@@ -1,4 +1,6 @@
+#using database etlhive
 use etlhive;
+
 select * from movies_sql limit 5;
 
 #1. Retrieve the names of all the Bollywood movies which are of drama genre in the dataset.
